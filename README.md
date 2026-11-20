@@ -1,6 +1,6 @@
 # Applied Macroeconometrics: Simulation and Forecasting in Python
 
-**Author:** Salar Sheikholeslami  
+**Salar Sheikholeslami**  
 **Institution:** Johannes Kepler University Linz (JKU), Austria  
 **Year:** 2025  
 **Language:** Python  
