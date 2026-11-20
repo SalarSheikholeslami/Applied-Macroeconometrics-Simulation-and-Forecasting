@@ -23,8 +23,6 @@ The project combines **Monte Carlo simulation**, **unit-root diagnostics**, **re
 - Use **10,000 replications** to explore inference with and without deterministic terms in the data-generating process.
 - Visualise the resulting sampling distributions and compare empirical percentiles.
 
-[Simulated Dickey–Fuller distribution under a random-walk null](figures/random_walk_with_intercept_test.png)
-
 **Script:** `code/01_monte_carlo_dickey_fuller.py` (runs without external data).
 
 ### Unit roots and U.S. interest rates
