@@ -16,24 +16,21 @@ The model-selection exercise uses the supplied workbook's **250 numeric values**
 
 The expanding-window comparison produced **60** one-quarter-ahead forecasts for AR(7) and ARMA(2,1). The mean absolute errors are **0.2862** and **0.2829**, respectively. The paired t-test on absolute errors yields **p ≈ 0.724**; the observed difference is not statistically significant under this original test calculation. This is **not** a fully HAC-adjusted Diebold–Mariano test.
 
-![One-quarter-ahead forecasts](Applied_Macroeconometric/figures/03_recursive_yield_spread_forecasting/01_recursive_one_quarter_ahead_forecasts_treasury_yield_spread.png)
-
+[One-quarter-ahead forecasts]
 See [`recursive_forecast_results.csv`] for all 60 observations and forecasts.
 
 ## Monte Carlo experiments
 
 The original simulations were executed with **10,000 replications per scenario**. The first scenario evaluates the Dickey–Fuller test statistic on simulated random walks; the other scenarios examine t-statistic distributions under different deterministic specifications. Percentile tables and all three distribution plots are in the generated folders.
-
-![Dickey-Fuller simulation](Applied_Macroeconometric/figures/04_monte_carlo_unit_root_inference/01_distribution_of_dickey_fuller_t_statistic.png)
+[Dickey-Fuller simulation]
 
 ## Treasury interest-rate unit-root tests
 
-The ADF(8) test statistic is **−4.3071** for the spread (p ≈ 0.0004), **−1.3071** for the 10-year rate (p ≈ 0.626), and **−2.1012** for the 3-month rate (p ≈ 0.244). With five lags, the 3-month rate yields **−2.9647** (p ≈ 0.038). These differences illustrate sensitivity to lag specification; see [`treasury_adf_results.csv`](Applied_Macroeconometric/tables/05_treasury_adf_tests/treasury_adf_results.csv).
+The ADF(8) test statistic is **−4.3071** for the spread (p ≈ 0.0004), **−1.3071** for the 10-year rate (p ≈ 0.626), and **−2.1012** for the 3-month rate (p ≈ 0.244). With five lags, the 3-month rate yields **−2.9647** (p ≈ 0.038). These differences illustrate sensitivity to lag specification; see [`treasury_adf_results.csv`]
 
 ## Structural change and GDP trend components
 
 The structural-break script plots the simulated series and its dynamics before and after differencing. The GDP script contrasts HP-filter cyclical components (λ = 1,600) with deviations from a piecewise linear trend. Results reflect the supplied original code specifications and should not be treated as independently verified implementations of all cited asymptotic tests.
-
-![Real GDP decompositions](Applied_Macroeconometric/figures/07_real_gdp_trend_decomposition/03_comparison_of_transitory_components_hp_filter_vs_trend_break_mode.png)
+[Real GDP decompositions]
 
 **Scope:** These are course-based computational analyses compiled as a research-skills portfolio. Preserve appropriate credit for all contributors and respect the input data's rights.
