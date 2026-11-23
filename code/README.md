@@ -58,7 +58,7 @@ Applied_Macroeconometric/
 
 Regression coefficient tables and Ljung–Box/ADF results appear as CSV and HTML. Full fitted-model summary text files are retained where model results are exported. Plot creation and export occur directly in each independent script.
 
-Generated outputs from complete execution are included in the downloadable archive and summarised in [results.md](results.md). The compiled public package contains derived figures and tables, but not the input workbooks.
+Generated outputs from complete execution are included in the downloadable archive and summarised in [results](results). The compiled public package contains derived figures and tables, but not the input workbooks.
 
 ## 4. Longer runs
 
