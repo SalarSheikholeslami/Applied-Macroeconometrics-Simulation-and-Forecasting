@@ -32,5 +32,3 @@ The ADF(8) test statistic is **−4.3071** for the spread (p ≈ 0.0004), **−1
 
 The structural-break script plots the simulated series and its dynamics before and after differencing. The GDP script contrasts HP-filter cyclical components (λ = 1,600) with deviations from a piecewise linear trend. Results reflect the supplied original code specifications and should not be treated as independently verified implementations of all cited asymptotic tests.
 [Real GDP decompositions]
-
-**Scope:** These are course-based computational analyses compiled as a research-skills portfolio. Preserve appropriate credit for all contributors and respect the input data's rights.
