@@ -5,10 +5,6 @@ Evaluate real GDP with the original break-adjusted trend regression, HP filter, 
 Input workbook : rgdp.xlsx
 Excel worksheet: RGDP
 Input variables: First date column; RGDP
-Original input location: C:/Users/Salar/Desktop/rgdp.xlsx
-
-Run as a standalone .py file or paste into a Jupyter notebook.
-Outputs are written automatically to Applied_Macroeconometric/figures and /tables.
 """
 
 from pathlib import Path
@@ -30,10 +26,7 @@ from statsmodels.stats.diagnostic import acorr_ljungbox
 # Alternatively set DATA_FILE to an absolute path such as:
 # DATA_FILE = r"C:\Users\Salar\Desktop\Project\data\rgdp.xlsx"
 DATA_FILE = 'rgdp.xlsx'
-
 # =========================================================
-
-# Paths and output routines are included here; no project-specific module is used.
 def project_folder():
     if "__file__" in globals():
         folder = Path(__file__).resolve().parent
