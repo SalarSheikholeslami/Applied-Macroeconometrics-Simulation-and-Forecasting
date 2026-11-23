@@ -5,10 +5,6 @@ Examine the spread between long- and short-term U.S. Treasury rates and compare 
 Input workbook : quarterly.xlsx
 Excel worksheet: QUARTERLY
 Input variables: SPREAD, R10, TB3MS
-Original input location: C:/Users/Salar/Desktop/quarterly.xlsx
-
-Run as a standalone .py file or paste into a Jupyter notebook.
-Outputs are written automatically to Applied_Macroeconometric/figures and /tables.
 """
 
 from pathlib import Path
@@ -32,8 +28,6 @@ from statsmodels.stats.diagnostic import acorr_ljungbox
 DATA_FILE = 'quarterly.xlsx'
 
 # =========================================================
-
-# Paths and output routines are included here; no project-specific module is used.
 def project_folder():
     if "__file__" in globals():
         folder = Path(__file__).resolve().parent
