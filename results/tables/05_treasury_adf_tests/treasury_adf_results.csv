@@ -1,0 +1,5 @@
+﻿Series,ADF_lags,ADF_statistic,p_value,Observations,Critical_1pct,Critical_5pct,Critical_10pct
+Treasury spread,8,-4.307053,0.000432,251,-3.456674,-2.873125,-2.572944
+10-year rate,8,-1.307068,0.625933,251,-3.456674,-2.873125,-2.572944
+3-month bill rate,8,-2.101209,0.244029,251,-3.456674,-2.873125,-2.572944
+3-month bill rate,5,-2.964740,0.038321,254,-3.456360,-2.872987,-2.572870
