@@ -5,10 +5,6 @@ Industrial production log changes, unemployment persistence, and log changes in 
 Input workbook : quarterly.xlsx
 Excel worksheet: QUARTERLY
 Input variables: DATE, INDPRO, UNRATE, FINISHED
-Original input location: C:/Users/Salar/Desktop/quarterly.xlsx
-
-Run as a standalone .py file or paste into a Jupyter notebook.
-Outputs are written automatically to Applied_Macroeconometric/figures and /tables.
 """
 
 from pathlib import Path
@@ -32,8 +28,7 @@ from statsmodels.stats.diagnostic import acorr_ljungbox
 DATA_FILE = 'quarterly.xlsx'
 
 # =========================================================
-
-# Paths and output routines are included here; no project-specific module is used.
+# Paths and output routines are included here
 def project_folder():
     if "__file__" in globals():
         folder = Path(__file__).resolve().parent
@@ -87,7 +82,6 @@ def save_table(values, filename):
         "<!doctype html><meta charset='utf-8'>" + styles + html_table,
         encoding="utf-8"
     )
-
 
 def save_model(model, filename):
     """Save model estimates, standard errors and original summary output."""
