@@ -77,6 +77,3 @@ FORECAST_HORIZON = 8    # in code/03 only; restore to 60
 - The absolute-error comparison is the **paired t-test** originally calculated with `scipy.stats.ttest_rel`. It should not be described as a fully serial-correlation-robust Diebold–Mariano test.
 - The break-adjusted residual regressions reproduce the original specifications; they are not represented as a verified general-purpose implementation of Perron (1989).
 - The other course-supplied `break.xlsx` workbook relates to a parameter-instability analysis for which **no corresponding Python code was in the two original files**. No new analytical method was invented for it.
-- The original submissions may include multiple contributors. Verify the contributions and acknowledge collaborators before publishing. Input workbook rights remain with their respective owners; do not publish third-party course data without permission.
-
-The scripts document a computational coursework-based portfolio, not independently verified or peer-reviewed research.
