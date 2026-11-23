@@ -6,9 +6,6 @@ Input workbook : None — data are simulated internally
 Excel worksheet: Not applicable
 Input variables: Generated in Python
 Data source: Generated in Python (no input file)
-
-Run as a standalone .py file or paste into a Jupyter notebook.
-Outputs are written automatically to Applied_Macroeconometric/figures and /tables.
 """
 
 from pathlib import Path
@@ -32,7 +29,6 @@ DATA_FILE = None
 REPETITIONS = 10000  # Set e.g. 50 for a quick check; restore 10000 for final results.
 # =========================================================
 
-# Paths and output routines are included here; no project-specific module is used.
 def project_folder():
     if "__file__" in globals():
         folder = Path(__file__).resolve().parent
@@ -57,7 +53,7 @@ def find_data(filename):
         requested, ROOT / "data" / requested.name, ROOT / requested.name,
         ROOT / "code" / requested.name, Path.cwd() / "data" / requested.name,
         Path.cwd() / requested.name,
-        Path("C:/Users/Salar/Desktop") / requested.name,
+        Path("your own path") / requested.name,
     ]
     for path in candidates:
         if path.is_file():
