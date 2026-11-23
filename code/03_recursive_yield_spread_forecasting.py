@@ -5,10 +5,6 @@ Estimate AR(7) and ARMA(2,1) models and compare one-quarter-ahead forecasts from
 Input workbook : quarterly.xlsx
 Excel worksheet: QUARTERLY
 Input variables: DATE, SPREAD
-Original input location: C:/Users/Salar/Desktop/quarterly.xlsx
-
-Run as a standalone .py file or paste into a Jupyter notebook.
-Outputs are written automatically to Applied_Macroeconometric/figures and /tables.
 """
 
 from pathlib import Path
@@ -31,10 +27,9 @@ from scipy.stats import t, ttest_rel
 # Alternatively set DATA_FILE to an absolute path such as:
 # DATA_FILE = r"C:\Users\Salar\Desktop\Project\data\quarterly.xlsx"
 DATA_FILE = 'quarterly.xlsx'
-FORECAST_HORIZON = 60  # Set e.g. 8 for a quick check; restore 60 for final results.
+FORECAST_HORIZON = 60 
 # =========================================================
 
-# Paths and output routines are included here; no project-specific module is used.
 def project_folder():
     if "__file__" in globals():
         folder = Path(__file__).resolve().parent
