@@ -30,8 +30,6 @@ from statsmodels.stats.diagnostic import acorr_ljungbox
 DATA_FILE = 'unknown.xlsx'
 
 # =========================================================
-
-# Paths and output routines are included here; no project-specific module is used.
 def project_folder():
     if "__file__" in globals():
         folder = Path(__file__).resolve().parent
