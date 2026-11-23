@@ -3,12 +3,10 @@
 Use sample ACF/PACF and fitted AR(2), AR(3), and ARMA(2,1) models to evaluate the dynamics of a stationary simulated time series.
 
 Input workbook : unknown.xlsx
+The file unknown.XLS contains 250 simulated realizations of a stationary data-generating process
+(DGP).
 Excel worksheet: data
 Input variables: One numeric series (yt)
-Original input location: C:/Users/Salar/Desktop/unknown.xlsx
-
-Run as a standalone .py file or paste into a Jupyter notebook.
-Outputs are written automatically to Applied_Macroeconometric/figures and /tables.
 """
 
 from pathlib import Path
@@ -161,7 +159,6 @@ save_plot()
 
 # === Simulated series: candidate models ===
 # Estimate AR(2), AR(3), and ARMA(2,1) with the original model specifications.
-
 
 import warnings
 warnings.filterwarnings("ignore")
