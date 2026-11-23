@@ -30,9 +30,9 @@ The analyses are organised into **seven standalone scripts**, grouped by their e
 - **Unit-root diagnostics:** With eight ADF lags, the Treasury yield spread rejects the unit-root null, whereas the two individual interest-rate series do not reject it at conventional levels. Results for the short-term rate are sensitive to the selected lag length.
 - **Simulation and structural change:** **10,000 Monte Carlo replications per scenario** illustrate the influence of deterministic terms on unit-root inference; separate analyses examine a simulated structural break and alternative real-GDP trend decompositions.
 
-Detailed results and source-linked outputs are collected in [RESULTS.md](RESULTS.md).
+Detailed results and source-linked outputs are collected in[results.md].
 
-![Recursive one-quarter-ahead Treasury spread forecasts](Applied_Macroeconometric/figures/03_recursive_yield_spread_forecasting/01_recursive_one_quarter_ahead_forecasts_treasury_yield_spread.png)
+[Recursive one-quarter-ahead Treasury spread forecasts]
 
 ## Repository structure
 
@@ -144,9 +144,6 @@ Existing exported outputs included in the public package can be viewed without r
 - Numerical results depend on the source workbooks, data revisions, estimation windows, test specifications and package versions.
 
 ## Academic context and attribution
-
-This repository presents Python analyses developed in connection with the *Financial and Macroeconometrics* course at Johannes Kepler University Linz in 2025. **Salar Sheikholeslami** prepared this GitHub portfolio. The underlying coursework reports list **Salar Sheikholeslami and Amirhossein Sheikholeslami**; their respective contributions should be acknowledged where applicable.
-
-The repository is intended to demonstrate applied econometric programming and empirical analysis. It is **not an official solution set, a peer-reviewed publication, or a claim of unrestricted rights over course-provided datasets**.
+This repository presents Python analyses developed in connection with the *Financial and Macroeconometrics* project at Johannes Kepler University Linz in 2025. **Salar Sheikholeslami** prepared this GitHub portfolio.
 
 
