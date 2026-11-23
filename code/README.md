@@ -1,32 +1,6 @@
 # Applied Macroeconometrics
 
-## 1. Get started: only the Excel files are needed
-
-1. Install Python and the standard scientific packages once:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. Put the required `.xlsx` data files into `data/`, retaining the filenames and sheet names. The file `04_monte_carlo_unit_root_inference.py` does not require external data.
-
-3. Run one independent script, for example, from the project directory:
-
-   ```bash
-   python code/01_macro_ar_arma_models.py
-   python code/02_simulated_dgp_model_selection.py
-   python code/05_treasury_adf_tests.py
-   ```
-  
-4. If the data is elsewhere, edit **one setting only** near the beginning of the file:
-
-   ```python
-   DATA_FILE = r"C:\Users\Salar\Desktop\Project\data\quarterly.xlsx"
-   ```
-
-Leaving `DATA_FILE = "quarterly.xlsx"` searches the `data/` folder, script folder and notebook's current folder. The original file location `C:/Users/Salar/Desktop/<workbook>.xlsx` is also recognised as a fallback.
-
-## 2. Analyses and input data
+## 1. Analyses and input data
 
 | Script | Primary analysis | Excel input | Worksheet |
 |---|---|---|---|
@@ -42,7 +16,7 @@ Leaving `DATA_FILE = "quarterly.xlsx"` searches the `data/` folder, script folde
 
 ## 3. Saved results
 
-No setup is required. Each script automatically creates a project output directory alongside `code/` and `data/`:
+No setup is required. Each script automatically creates a project output directory alongside `code/`:
 
 ```text
 Applied_Macroeconometric/
@@ -77,3 +51,5 @@ FORECAST_HORIZON = 8    # in code/03 only; restore to 60
 - The absolute-error comparison is the **paired t-test** originally calculated with `scipy.stats.ttest_rel`. It should not be described as a fully serial-correlation-robust Diebold–Mariano test.
 - The break-adjusted residual regressions reproduce the original specifications; they are not represented as a verified general-purpose implementation of Perron (1989).
 - The other course-supplied `break.xlsx` workbook relates to a parameter-instability analysis for which **no corresponding Python code was in the two original files**. No new analytical method was invented for it.
+
+- 
