@@ -1,6 +1,6 @@
 **Salar Sheikholeslami**  
 **Institution:** Johannes Kepler University Linz (JKU), Austria  
-**Academic context:** Financial and Macroeconometrics, Summer Term 2025  
+**Academic context:** Financial and Macroeconometrics, Jun 2025  
 **Language:** Python  
 **Focus:** Time-series econometrics, Monte Carlo simulation, unit-root testing, structural change and macroeconomic forecasting
 
