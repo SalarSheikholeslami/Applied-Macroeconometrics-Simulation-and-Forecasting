@@ -1,8 +1,5 @@
 """Monte Carlo distributions for Dickey-Fuller type t statistics.
 
-Adapted and reorganised from the author's Financial and Macroeconometrics
-coursework (JKU, Summer 2025). No external data needed.
-"""
 from __future__ import annotations
 
 import argparse
