@@ -66,4 +66,4 @@ Saved outputs reflect the underlying script, original model design and input dat
 - The real-GDP script preserves the original `break_index = 107` model convention, which in the supplied workbook makes **1973Q4** the first affected quarter. A separate chart marker at **1973Q2** is an oil-shock reference date, not the trend-model breakpoint.
 - The code is a research-skills portfolio developed from course-related work. It should not be described as a published research paper, a formal teaching solution set, or a fully validated implementation of every structural-break test mentioned in the original teaching material.
 
-Further context: [main README](../README.md) · [Data formats and access](../data/README.md) · [Selected results](../results.md).
+Further context: [main README](../README.md) · [Data formats and access](../data/README.md)
